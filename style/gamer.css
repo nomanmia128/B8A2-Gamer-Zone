@@ -1,0 +1,96 @@
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&famiy=Opan+Sans:wgth@400;700;800&family=Work+Sans:Wght@400;500;600;700;800&disply=swap');
+/* shared styles */
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans',sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles */
+header{
+    margin: 20px 100px 0px 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-img{
+    font-size: 30px;
+    font-weight: 700;
+}
+.logo-img img{
+    width: 50px;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo{
+    color: rgb(244, 61, 177);
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+nav li a{
+    text-decoration: none;
+    color: #131313;
+}
+
+.icon{
+    margin-top: -15px;
+    background: #e0dfdf;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* button youtub styles */
+.youtube{
+    background-color: #e0dfdf;
+    color: red;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tiktok{
+    background-color: #e0dfdf;
+    color: #131313;
+    font-size: 15px;
+   
+}
+
+
+/* mobile device */
+@media screen and (max-width:576px) {
+    nav,
+    ul {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        margin-top: 0;
+        padding: 0;
+    }
+    .logo-img{
+        margin-bottom: 0;
+    }
+    .tolber{
+        margin-top: 20px;
+    }
+}
+
+/* medium device */
+@media screen and (min-width:576px) and (max-width:960) {
+    nav{
+        flex-direction: column;
+    }
+}
