@@ -150,19 +150,20 @@ nav li a{
         flex-direction: column-reverse;
         background-position: bottom center;
         background-size: 100%;
+        padding: 0px;
     }
     .banner-title{
         margin-top: 50px;
     }
     .banner > img{
      
-       width: 100%;
-       height: 100%;
-       
+       width: 80%;
+       height: 80%;
+       padding-left: 50px;
     }
     .banner-content{
        font-weight: 50%;
-       margin-left: 50px;
+       margin-left: 110px;
        
     }
     
