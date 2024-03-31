@@ -164,6 +164,7 @@ nav li a{
     .banner-content{
        font-weight: 50%;
        margin-left: 110px;
+       padding-bottom: 20px;
        
     }
     
@@ -174,4 +175,12 @@ nav li a{
     header{
         margin: 10px 50px 10px 50px;
     }
+    .banner img{
+        width: 50%;
+        height: 50%;
+    }
+    .banner-content{
+        padding-bottom: 20px;
+    }
 }
+
