@@ -164,33 +164,36 @@ nav li a{
 /* play section styles */
 
 .play{
-    margin: 100px 100px 50px 300px;
+    margin: 100px 100px 50px 200px;
+    max-width: 1250px;
     display: flex;
-    gap: 250px;
+    gap: 150px;
 }
 .play img{
-    width: 350px;
-    height: 400px;
+    width: 450px;
+    height: 500px;
 }
 .play-contaent{
    text-align: right;
+   /* max-width: 353px;
+   min-height: 294px; */
 }
 .play-title{
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 900;
     margin-top: 130px;
     margin-bottom: 10px;
 }
 .play-desciption{
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 400;
     color: #424242;
 }
 .small-pic img{
-    width: 180px;
-    height: 220px;
+    width: 200px;
+    height: 250px;
     position: relative;
-     margin-top: -180px;
+     margin-top: -210px;
      margin-left: -80px;
 }
 
@@ -252,27 +255,37 @@ nav li a{
     }
     .play{
         flex-direction: column;
-        margin: 0;
-        gap: 20px;
-    }
-    .play-title{
-        margin-top: 20px;
+        /* margin: 0px 50px 0px 50px; */
+        margin: 0px;
     }
     .play-contaent{
-        margin: 20px 56px 20px 56px;
         text-align: center;
+        margin: 0px 100px 0px 100px;
+    }
+    .play-title{
+        font-size: 25px;
+        font-weight: 700;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .play{
+        gap: 40px;
+    }
+    .play-desciption{
+        font-size: 10px;
+        font-weight: 400;
     }
     .play img{
-        width: 250px;
-        height: 300px;
-        margin: 20px 40px 20px 60px;
+        width: 80%;
+        height: 80%;
+        margin-left: 50px;
     }
     .small-pic img{
-        width: 130px;
-        height: 160px;
-        margin-top: -150px;
-        margin-left: -2px;
-        margin-left: 10px;
+        width: 35%;
+        /* height: 100%; */
+        position: relative;
+         margin-top: -210px;
+         margin-left: -0px;
     }
 }
 
@@ -304,5 +317,33 @@ nav li a{
     margin-left: 30px;
     align-items: center;
    }
+   .play{
+    margin: 0;
+    gap: 50px;
+   }
+   .play-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+.play-desciption{
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+.play img{
+    width: 100%;
+    height: 100%;
+    /* margin-left: 30px; */
+}
+.small-pic img{
+    width: 45%;
+    /* height: 100%; */
+    position: relative;
+    margin-top: -210px;
+    margin-left: -40px;
+}
 }
 
