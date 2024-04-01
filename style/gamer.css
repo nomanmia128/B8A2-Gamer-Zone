@@ -244,9 +244,13 @@ nav li a{
     .banner img{
         width: 50%;
         height: 50%;
+        margin-top: 40px;
     }
    .banner-title{
-    margin: 20px;
+    margin: 0;
+   }
+   .banner-content{
+    margin-top: 100px;
    }
    .card-content{
     flex-direction: column;
